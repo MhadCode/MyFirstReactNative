@@ -24,12 +24,13 @@ export default class Login extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
+    flexGrow: 1,
+    justifyContent: 'flex-end',
     alignItems: 'center',
   },
   logoText: {
     marginVertical: 20,
+    marginBottom: 70,
     fontSize: 18,
     color: 'rgba(255,255,255,0.7)',
   },
