@@ -13,10 +13,10 @@ export default class Login extends Component {
     return (
       <View style={styles.container}>
         <Image
-          style={{width: 90, height: 70}}
+          style={{width: 100, height: 100}}
           source={require('../images/logo.png')}
         />
-        <Text style={styles.logoText}>Welcome To my App</Text>
+        <Text style={styles.logoText}>Welcome to XOMU</Text>
       </View>
     );
   }

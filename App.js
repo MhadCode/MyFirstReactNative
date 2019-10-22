@@ -9,13 +9,14 @@ import {
 } from 'react-native';
 
 import Login from './src/pages/Login';
+import Singup from './src/pages/Signup';
 
 export default class HelloWorldApp extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <StatusBar back groundColor="#1c313a" barStyle="light-content" />
-        <Login />
+        <StatusBar backgroundColor="#350a6f" barStyle="light-content" />
+        <Singup />
       </View>
     );
   }
@@ -23,7 +24,7 @@ export default class HelloWorldApp extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#455a64',
+    backgroundColor: '#562e8c',
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
